@@ -11,6 +11,9 @@
 <body>
 
    <header> 
+      <button id="toggleTema">Tema Escuro</button>
+<script src="js/tema.js"></script>
+
 <h1> Mercado do seu Zé: Onde se tem os melhores preços para o seu bolso</h1>
    </header>
 
@@ -27,116 +30,19 @@
    Desfrute da nossa variedade de produtos
 </h2>
 <table class="tabela-produtos">
-   <thead>
-      <tr>
-         <th>Prouto</th>
-         <th>Nome do produto</th>
-         <th>Gênero</th>
-         <th>Preço</th>
-         <th>peso</th>
-      </tr>
-   </thead>
-   <tr>
-      <td>
-         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTEYcd39TEwyi9f4LgKLfv71xR2n6O36pxDg&s" 
-         width="100" alt="Banana">
-         </td>
-<td>Banana</td>
-<td>Fruta</td>
-<td>R$ 12,90</td>
-<td>1KG</td>
-   </tr>
-   <tr>
-      <td>
-         <img src="https://images.tcdn.com.br/img/img_prod/450860/muda_de_maca_gala_climas_frios_ou_amenos_1m_enxertadas_566_1_20190611093558.jpg" 
-         width="100" alt="Maça">
-         </td>
-<td>Maça</td>
-<td>Fruta</td>
-<td>R$ 17,00</td>
-<td>1KG</td>
-   </tr>
-   <tr>
-      <td>         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZvlCLff8FpFkrhvuiIeu29-4BMnSOz4fxbQ&s" 
-         width="100" alt="Morango">
-</td>
-<td>Morango</td>
-<td>Fruta</td>
-<td>R$ 20,50</td>
-<td>1KG</td>
-   </tr>
-      <tr>
-      <td>         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSUIaBT8IyNqSvEVXvzPr7HPRlgmd3i0XSg&s" 
-         width="100" alt="Melancia">
-</td>
-<td>Melancia</td>
-<td>Fruta</td>
-<td>R$ 28,90</td>
-<td>5KG</td>
-   </tr>
-  <tr>
-      <td>
-         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2d2u9Nor-7GGiptAqixzwJAIhj4nEPTQw7Q&s" 
-         width="100" alt="Alfaçe crespo">
-         </td>
-<td>Alfaçe crespo</td>
-<td>Verdura</td>
-<td>R$ 14,90</td>
-<td>200gm</td>
-   </tr>
-     <tr>
-      <td>
-         <img src="https://mercantilnovaera.vtexassets.com/arquivos/ids/196908-800-450?v=637834832428700000&width=800&height=450&aspect=true" 
-         width="150" alt="Rúcula">
-         </td>
-<td>Rúcula</td>
-<td>Verdura</td>
-<td>R$ 18,90</td>
-<td>250gm</td>
-   </tr>
+  <thead>
     <tr>
-      <td>
-         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpxkCHp1B8WDY6hyvg_DAbsHUj4qWVqlR2Lw&s" 
-         width="100" alt="Couve">
-         </td>
-<td>Couve</td>
-<td>Verdura</td>
-<td>R$ 18,90</td>
-<td>300gm</td>
-   </tr>
-     <tr>
-      <td>
-         <img src="https://bigdelivery-assets-sales-production.s3-sa-east-1.amazonaws.com/spree/images/832/large/Fraldinha_%281_de_1%29.jpg?1505901920" 
-         width="100" alt="Fraldinha">
-         </td>
-<td>Fradinha</td>
-<td>Carne</td>
-<td>R$ 46,90</td>
-<td>1KG</td>
-   </tr>
-       <tr>
-      <td>
-         <img src="https://institucional.carapretaoficial.com.br/wp-content/uploads/2020/04/Cortes-Sem-Fundo-FullHD-Maminha-1.png" 
-         width="100" alt="Maminha">
-         </td>
-<td>Maminha</td>
-<td>Carne</td>
-<td>R$ 52,90</td>
-<td>1KG</td>
-   </tr>
-      <tr>
-      <td>
-         <img src="https://www.casadecarnespine.com.br/wp-content/uploads/2023/01/linguica-calabresa-defumada.jpg" 
-         width="100" alt="Calabresa">
-         </td>
-<td>Calabresa</td>
-<td>Carne</td>
-<td>R$ 19,99</td>
-<td>200gm</td>
-   </tr>
-
-
+      <th>Produto</th>
+      <th>Nome do produto</th>
+      <th>Categoria</th>
+      <th>Preço</th>
+      <th>Peso</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
 </table>
+
+
 
 
 
@@ -150,6 +56,7 @@
 Este projeto é uma ferramenta educacional e não comercial. As informações e imagens são utilizadas para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.
 </p>
 </footer>
+<script src="js/carrega_dados.js"></script>
 
 </body>
 </html>

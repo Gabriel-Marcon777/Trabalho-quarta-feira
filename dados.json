@@ -1,0 +1,72 @@
+[
+  {
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTEYcd39TEwyi9f4LgKLfv71xR2n6O36pxDg&s",
+    "nome": "Banana",
+    "categoria": "Fruta",
+    "preco": "R$ 12,90",
+    "peso": "1KG"
+  },
+  {
+    "imagem": "https://images.tcdn.com.br/img/img_prod/450860/muda_de_maca_gala_climas_frios_ou_amenos_1m_enxertadas_566_1_20190611093558.jpg",
+    "nome": "Maçã",
+    "categoria": "Fruta",
+    "preco": "R$ 17,00",
+    "peso": "1KG"
+  },
+  {
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZvlCLff8FpFkrhvuiIeu29-4BMnSOz4fxbQ&s",
+    "nome": "Morango",
+    "categoria": "Fruta",
+    "preco": "R$ 20,50",
+    "peso": "1KG"
+  },
+  {
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSUIaBT8IyNqSvEVXvzPr7HPRlgmd3i0XSg&s",
+    "nome": "Melancia",
+    "categoria": "Fruta",
+    "preco": "R$ 28,90",
+    "peso": "5KG"
+  },
+  {
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2d2u9Nor-7GGiptAqixzwJAIhj4nEPTQw7Q&s",
+    "nome": "Alface crespo",
+    "categoria": "Verdura",
+    "preco": "R$ 14,90",
+    "peso": "200g"
+  },
+  {
+    "imagem": "https://mercantilnovaera.vtexassets.com/arquivos/ids/196908-800-450?v=637834832428700000&width=800&height=450&aspect=true",
+    "nome": "Rúcula",
+    "categoria": "Verdura",
+    "preco": "R$ 18,90",
+    "peso": "250g"
+  },
+  {
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpxkCHp1B8WDY6hyvg_DAbsHUj4qWVqlR2Lw&s",
+    "nome": "Couve",
+    "categoria": "Verdura",
+    "preco": "R$ 18,90",
+    "peso": "300g"
+  },
+  {
+    "imagem": "https://bigdelivery-assets-sales-production.s3-sa-east-1.amazonaws.com/spree/images/832/large/Fraldinha_%281_de_1%29.jpg?1505901920",
+    "nome": "Fraldinha",
+    "categoria": "Carne",
+    "preco": "R$ 46,90",
+    "peso": "1KG"
+  },
+  {
+    "imagem": "https://institucional.carapretaoficial.com.br/wp-content/uploads/2020/04/Cortes-Sem-Fundo-FullHD-Maminha-1.png",
+    "nome": "Maminha",
+    "categoria": "Carne",
+    "preco": "R$ 52,90",
+    "peso": "1KG"
+  },
+  {
+    "imagem": "https://www.casadecarnespine.com.br/wp-content/uploads/2023/01/linguica-calabresa-defumada.jpg",
+    "nome": "Calabresa",
+    "categoria": "Carne",
+    "preco": "R$ 19,99",
+    "peso": "200g"
+  }
+]

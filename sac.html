@@ -9,6 +9,9 @@
 </head>
 <body>
    <header> 
+      <button id="toggleTema">Tema Escuro</button>
+<script src="js/tema.js"></script>
+
 <h1> Mercado do seu Zé: Onde se tem os melhores preços para o seu bolso</h1>
    </header>
    <nav class="navbar">
@@ -22,19 +25,24 @@
 <h2>Serviço de Atendimento ao Cliente</h2>
 <p>Envie uma mensagem e responderemos logo.</p>
 
-<form action="#" method="post">
+<form id="formSAC" action="#" method="post">
 
-<label for="id_nome">Nome do cliente:</label><br>
-<input type="text" id="id_nome" name="nome"><br> <br>
-<label for="id_nome">Email do cliente:</label><br>
-<input type="text" id="id_nome" name="nome"><br> <br>
+  <label for="id_nome">Nome do cliente:</label><br>
+  <input type="text" id="id_nome" name="nome" required><br><br>
 
-<label for="id_mensagem">Mensagem:</label><br>
-<textarea name="mensagem" id="id_mensagem"></textarea><br><br>
-<input type="submit" value="Enviar">
+  <label for="id_email">Email do cliente:</label><br>
+  <input type="text" id="id_email" name="email" placeholder="joao.silva@net.com" required><br><br>
 
+  <label for="id_cpf">CPF:</label><br>
+  <input type="text" id="id_cpf" name="cpf" placeholder="999.999.999-99" required><br><br>
+
+  <label for="id_mensagem">Mensagem:</label><br>
+  <textarea name="mensagem" id="id_mensagem" required></textarea><br><br>
+
+  <input type="submit" value="Enviar">
 </form>
 
+<script src="js/validacao.js"></script>
    </main> 
 <footer id="rodape">
 <p>© 2025 Mercado do seu Zé. Todos os direitos reservados. 
