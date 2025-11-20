@@ -1,0 +1,2 @@
+http://localhost/phpmyadmin/index.php?route=/
+http://localhost/Trabalho-quarta-feira/index.html
