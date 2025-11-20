@@ -1,2 +1,3 @@
-http://localhost/phpmyadmin/index.php?route=/
-http://localhost/Trabalho-quarta-feira/index.html
+1º http://localhost/phpmyadmin/index.php?route=/
+2º http://localhost/Trabalho-quarta-feira/backend/populate_db.php
+3º http://localhost/Trabalho-quarta-feira/index.html 
